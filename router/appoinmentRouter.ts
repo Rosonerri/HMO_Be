@@ -13,8 +13,7 @@ router.route("/create-appointment/:memberID").post(creatAppointment);
 
 router.route("/view-member-appointment/:memberID").get(viewMembersAppointment);
 router.route("/view-user-appointment/:userID").get(viewUserAppointment);
-router
-  .route("/view-hospital-appointment/:hospitalID")
+router.route("/view-hospital-appointment/:hospitalID")
   .get(viewHospitalAppointment);
 
 router
